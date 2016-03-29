@@ -1,28 +1,70 @@
-html{
-    
-    background-color: #ABF9FF;
-}
 
 body{
-    text-align: center;
+  
 }
 
 img{
-width:200px;
-height: 200px;
-border-radius: 100%;
+width:250px;
+height: 250px;
+border-radius: 10%;
 border: solid;
 border-width: 3px;
-border-color: blue;
+border-color: #DEABFF;
+
     
 }
 
-h1{
-    color: blue;
-}
 
 p{
 font-size: 20px;    
     
 }
 
+
+.nav a{
+    padding-right: 25px;
+    color: #E8C5FF;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav a:hover{
+    color: white;
+    
+}
+
+.nav{
+text-align: right;
+background-color: #9466B2;
+padding-bottom: 20px;
+}
+
+.imgOfMe{
+padding-top: 20px;
+padding-left: 35px;
+
+}
+
+.bio{
+ float: right;
+padding:0px;
+width: 500px;
+height: 300px;
+margin-right: 350px;
+ margin-top:-240px;
+    
+}
+
+.bio p{
+    color: #9466B2;
+}
+.bio h1{
+    color: purple;
+}
+
+footer{
+    text-align: center;
+    margin-top: 400px;
+    height: 20px;
+    background-color: #e1e3ea;
+}
