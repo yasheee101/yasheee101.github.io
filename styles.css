@@ -1,0 +1,28 @@
+html{
+    
+    background-color: #ABF9FF;
+}
+
+body{
+    text-align: center;
+}
+
+img{
+width:200px;
+height: 200px;
+border-radius: 100%;
+border: solid;
+border-width: 3px;
+border-color: blue;
+    
+}
+
+h1{
+    color: blue;
+}
+
+p{
+font-size: 20px;    
+    
+}
+
