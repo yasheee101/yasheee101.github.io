@@ -1,9 +1,6 @@
 
-body{
-  
-}
 
-img{
+.imgOfMe img{
 width:250px;
 height: 250px;
 border-radius: 10%;
@@ -37,11 +34,13 @@ font-size: 20px;
 text-align: right;
 background-color: #9466B2;
 padding-bottom: 20px;
+height: 30px;
+
 }
 
 .imgOfMe{
-padding-top: 20px;
-padding-left: 35px;
+padding-top: 25px;
+padding-left: 45px;
 
 }
 
@@ -50,7 +49,7 @@ padding-left: 35px;
 padding:0px;
 width: 500px;
 height: 300px;
-margin-right: 390px;
+margin-right: 450px;
  margin-top:-240px;
     
 }
@@ -64,7 +63,62 @@ margin-right: 390px;
 
 footer{
     text-align: center;
-    margin-top: 400px;
     height: 20px;
     background-color: #e1e3ea;
+    float: clear;
+}
+
+/*Contact Page CSS*/
+.socialMedia img{
+    width:150px;
+height: 150px;
+border-radius: 10%;
+border: solid;
+border-width: 3px;
+border-color: #DEABFF;
+    
+}
+.socialMedia{
+    margin-left: 545px;
+    margin-top: 105px;
+}
+
+#contactH1 h1{
+    text-align: center;
+    margin-top: 30px;
+    color: purple;
+}
+
+/*Portfolio CSS*/
+#portfolioH1{
+    color: purple;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.projectImgs img{
+    width: 250px;
+    height: 250px;
+      border: solid;
+    border-width: 3px;
+     border-color: #DEABFF;
+     border-radius: 20%;
+     margin-right: 10px;
+     
+}
+
+.projectImgs{
+    width: 900px;
+    margin-top: 65px;
+    margin-left: 293px;
+    padding-bottom: 10px;
+
+}
+
+.projectImgs li {
+    list-style: none;
+    margin: none;
+    padding: none;
+    display: inline;
+    
 }
